@@ -1,0 +1,29 @@
+<mat-tab-group [backgroundColor]="'primary'" [selectedIndex]="selected.value"
+               (selectedIndexChange)="selected.setValue($event)">
+  <mat-tab *ngFor="let tab of tabs; let index = index">
+
+    <ng-template mat-tab-label>
+      <mat-icon class="remove-tab-button"
+                (click)="removeTab(index)">close</mat-icon>
+      {{tab}}
+    </ng-template>
+
+<!--    <button mat-icon-button class="tab-close-button"-->
+<!--            [disabled]="tabs.length === 1"-->
+<!--            (click)="removeTab(index)">-->
+<!--      <mat-icon>close</mat-icon>-->
+<!--    </button>-->
+<!--    Contents for {{tab}} tab-->
+    <!-- <div #terminal id="terminal-{{index}}" onload="tabCreated()"></div> -->
+    <ng-template #terminal></ng-template>
+    
+
+  </mat-tab>
+</mat-tab-group>
+
+<button mat-mini-fab aria-label="Example icon-button with a heart icon"
+        class="add-tab-button"
+        (click)="addTab()"
+        style="position: absolute;">
+  <mat-icon>add</mat-icon>
+</button>
