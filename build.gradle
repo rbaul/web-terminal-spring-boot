@@ -1,0 +1,4 @@
+allprojects {
+	group = 'com.github.terminal'
+	version = '0.0.1-SNAPSHOT'
+}

@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: web-terminal-backend
+  profiles:
+    include:
+      - web-terminal
+
+  output:
+    ansi:
+      enabled: always
+
+server:
+  servlet:
+    contextPath: /
+  port: 8080
+
+logging:
+  level:
+    ROOT: info

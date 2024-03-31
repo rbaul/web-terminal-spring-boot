@@ -1,0 +1,4 @@
+rootProject.name = 'web-terminal'
+
+include 'web-terminal-backend'
+include 'web-terminal-frontend'

@@ -1,0 +1,19 @@
+${Ansi.GREEN}
+                         oooooo   oooooo     oooo oooooooooooo oooooooooo.
+                          `888.    `888.     .8'  `888'     `8 `888'   `Y8b
+                           `888.   .8888.   .8'    888          888     888
+                            `888  .8'`888. .8'     888oooo8     888oooo888'
+                             `888.8'  `888.8'      888    "     888    `88b
+                              `888'    `888'       888       o  888    .88P
+                               `8'      `8'       o888ooooood8 o888bood8P'
+
+
+ooooooooooooo oooooooooooo ooooooooo.   ooo        ooooo ooooo ooooo      ooo       .o.       ooooo
+8'   888   `8 `888'     `8 `888   `Y88. `88.       .888' `888' `888b.     `8'      .888.      `888'
+     888       888          888   .d88'  888b     d'888   888   8 `88b.    8      .8"888.      888
+     888       888oooo8     888ooo88P'   8 Y88. .P  888   888   8   `88b.  8     .8' `888.     888
+     888       888    "     888`88b.     8  `888'   888   888   8     `88b.8    .88ooo8888.    888
+     888       888       o  888  `88b.   8    Y     888   888   8       `888   .8'     `888.   888       o
+    o888o     o888ooooood8 o888o  o888o o8o        o888o o888o o8o        `8  o88o     o8888o o888ooooood8
+
+${Ansi.DEFAULT} :: Running Spring Boot ${spring-boot.version} ::
